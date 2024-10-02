@@ -1,0 +1,13 @@
+package com.example.springenvdemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringEnvDemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringEnvDemoApplication.class, args);
+    }
+
+}
